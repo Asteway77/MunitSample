@@ -12,6 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="e3933b43-ea2b-48bf-ad60-10ce4550be49" config-ref="HTTP_Listener_config" path="/test"/>
 		<set-payload value="#[[]]" doc:name="Set Payload" doc:id="36a61a3f-c371-4a6d-84d8-89bd17d98ca7" />
 		<flow-ref doc:name="Flow Reference" doc:id="f8da7e9f-7f54-4c26-a098-461f05b664ac" name="validateArray"/>
-		<logger level="INFO" doc:name="Logger" doc:id="e6600424-14f0-4136-b739-703feca6a882" message="Done!!!!??"/>
+		<logger level="INFO" doc:name="Logger" doc:id="e6600424-14f0-4136-b739-703feca6a882" message="Done!!!!??**"/>
 	</flow>
 </mule>
